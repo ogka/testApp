@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
     this.createForm();
   }
 
+  // Crea el formulario
   createForm(): void {
     this.loginForm = this._formBuilder.group({
       email: ['', [
